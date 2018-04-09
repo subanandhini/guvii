@@ -1,0 +1,12 @@
+import java.util.*;
+public class SplitNumber{
+public static void main(String sargs)
+{
+Scanner sa=new Scanner(system.in);
+string s=sa.next();
+string[]a=sa.split("\\.");
+for(int i=0;i<a.length;i++)
+{
+system.out.println(a[i]);
+}
+}}
