@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Duplicate {
+public class Bignumber{
 	public static void main(String[] args) {
 		int n=0;
 	System.out.println("enter total number ");
