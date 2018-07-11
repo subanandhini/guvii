@@ -5,5 +5,7 @@ Scanner s= new Scanner(System.in);
 int i=s.nextInt();
 if(i!=0)
 System.out.println("Positive");
+else if(i==0) 
+System.out.println("zero");
 else
-System.out.println("zero");}}
+System.out.println("odd");}}
