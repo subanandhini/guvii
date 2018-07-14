@@ -14,7 +14,7 @@ public static void main(String[] args) {
 	int has=0;
 	ArrayList<String> aa=new ArrayList<String>();
 	if(b!=0)
-	for(int i=0;i<anum.length()-b;i++) {
+	for(int i=0;i<anum.length()-b+1;i++) {
 		has=i;
 	    for(int j=0;j<anum.length()-b;j+=b) {
 	    	aa.add(anum.substring(has,has+b));
