@@ -1,12 +1,15 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Scanner;
 
-public class pro_3{
+public class Nonrepeating {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		String str="JOKERJOKER";
+		Scanner s=new Scanner(System.in);
+		String str1=s.next();
+		String str2=s.next();
+		String str=str1+str2;
 		int n=str.length();	
 ArrayList<Character> alt = new ArrayList<Character>();
 	for (int i = 0; i < n; i++) {
