@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class pro_4  {
+public class pro_set_1_4  {
 public static void main(String[] args) {
 	//System.out.println("fgfyd");
 		Scanner ss=new Scanner(System.in);
